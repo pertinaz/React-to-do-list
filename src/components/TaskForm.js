@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import '../hojas-de-estilo/TareaFormulario.css';
+import '../styleSheets/TaskForm.css';
 import { v4 as uuidv4 } from 'uuid';
 
-function TareaFormulario(props) {
+function TaskForm(props) {
 
   const [input, setInput] = useState('');
 
@@ -40,4 +40,4 @@ function TareaFormulario(props) {
   );
 }
 
-export default TareaFormulario;
+export default TaskForm;

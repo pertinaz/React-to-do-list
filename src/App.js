@@ -1,16 +1,16 @@
 import './App.css';
-import freeCodeCampLogo from './imagenes/freecodecamp-logo.png';
-import ListaDeTareas from './componentes/ListaDeTareas';
+import bootcampLogo from './images/bootcamp-free-font-01.jpg';
+import ListaDeTareas from './components/TaskList';
 
 function App() {
   return (
-    <div className='aplicacion-tareas'>
-      <div className='freecodecamp-logo-contenedor'>
+    <div className='task-app'>
+      <div className='logo-container'>
         <img 
-          src={freeCodeCampLogo} 
-          className='freecodecamp-logo' />
+          src={bootcampLogo} 
+          className='logo' />
       </div>
-      <div className='tareas-lista-principal'>
+      <div className='main-task-list'>
         <h1>Mis Tareas</h1>
         <ListaDeTareas />
       </div>

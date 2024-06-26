@@ -4,7 +4,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;     
+  justify-content: center;    
+  margin: 10px; 
 }
 
 /* Campo de Texto */
@@ -17,6 +18,7 @@
   border-radius: 4px 0 0 4px;
   border: 2px solid #00471b;
   outline: none;
+  margin: 10px;
 }
 
 /* Boton Agregar Tarea */
@@ -26,7 +28,7 @@
   font-size: 18px;
   font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 0 4px 4px 0;
+  border-radius: 10px;
   cursor: pointer;
   outline: none;
   background: #00471b;

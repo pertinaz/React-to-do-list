@@ -7,21 +7,24 @@
 html, 
 body {
   color: white;
-  background-color: #1b1b32;
+  background-color: #182b2b;
   font-family: Lato, sans-serif;
-  margin-top: 40px;
+  overflow: hidden;
 }
 
 h1 {
-  color: #1b1b32;
+  color: #000000;
   font-size: 25px;
   font-family: Roboto, sans-serif;
   text-align: center;
   margin: 20px 0;
 }
 
-.aplicacion-tareas {
+.task-app {
+  height: 100vh;
+  width: 100vw;
   display: flex;
+  flex-direction: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -29,27 +32,24 @@ h1 {
 
 /* Logo de freeCodeCamp */
 
-.freecodecamp-logo-contenedor {
-  width: 100%;
-  margin: 20px;
+.logo-container {
+  width: 50%;
+  height: 100px;
+  margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.freecodecamp-logo {
-  width: 400px;
-  height: 50px;
+.logo {
+  height: 150px;
 }
 
-/* Listas de Tareas */
-
-.tareas-lista-principal {
-  width: 600px;
-  min-height: 500px;
-  background-color: #d0d0d5;
+.main-task-list {
+  width: 500px;
+  min-height: 400px;
+  background-color: #e3e3e3;
   padding: 25px;
-  margin: 10px;
   border-radius: 26px;
 }
 
